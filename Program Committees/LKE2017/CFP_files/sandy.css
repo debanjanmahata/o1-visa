@@ -1,0 +1,139 @@
+/* EasyChair style sheet
+ * (c) 2016-2017 easychair.org
+ */
+
+#cfp {
+  margin: 10pt 30pt 20pt 20pt;
+  max-width: 1200px;
+  /* the below line is required for HTML editor to pick up the default font */ 
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+#cfplinks { margin: 0pt 0pt 4pt 0pt;}
+#cfptitle {text-align:left;font-size:20pt;margin:5pt 20pt 5pt 20pt; }
+#cfpvenue {text-align:left;font-size:13pt;margin:5pt 20pt 5pt 20pt; color: #cf560d; }
+#cfpdateplace {text-align:left;font-size:15pt;margin:5pt 20pt 5pt 20pt; color: #cf560d; }
+#cfplinks a:link {
+  display: inline-block;
+  padding: 0pt 0pt 7pt 0pt;
+  font-size:11pt;
+  color: #1d419f;
+}
+#cfplinks a:link:hover { color:#ee0000; }
+#cfplinks a:visited { color:#1d419f; }
+#cfplinks a:visited:hover { color:#ee0000; }
+#cfp h2 {
+  margin: 7pt 0px 6pt 0px;
+  font-weight:normal;
+  font-size:16pt;
+  border: solid 1px #7e4a28;
+  background: #e18447;
+  color: #fff;
+  padding: 4pt 0pt 6pt 20pt;
+  font-family: verdana, sans-serif;
+  border-radius: 4px;
+}
+#cfp h3 {
+  margin: 7pt 0px 6pt 20pt;
+  font-weight:normal;
+  font-size:16pt;
+  border-left: solid 8px #bf682e;
+  background: #ebeae4;
+  color: #a95222;
+  padding: 0pt 0pt 2pt 20pt;
+  font-family: verdana, sans-serif;
+  border-radius: 4px;
+}
+#cfp .topics {
+  margin: 0pt 0pt 0pt 20pt;
+  color: #333;
+  font-weight: bold;
+  font-size:11pt;
+  font-family: verdana, sans-serif;
+  text-align: right;
+}
+#cfp .topics a:link {
+  display: inline-block;
+  padding: 0pt 0pt 2pt 0pt;
+  font-size:11pt;
+  color: #1d419f;
+  font-weight: normal;
+}
+#cfp .topics a:link:hover { color:#ee0000; }
+#cfp .topics a:visited { color:#1d419f; }
+#cfp .topics a:visited:hover { color:#ee0000; }
+#cfplinks .separ {
+  padding: 0pt 6pt 0pt 6pt;
+  color: #1d419f;
+}
+#cfp p {
+  font-size:11pt;
+  padding-bottom: 5pt;
+}
+#cfp li { font-size:11pt; }
+#cfp ul { padding-bottom: 5pt;}
+#cfp .title_table {
+  border: 2px solid #7e4a28;
+  border-radius: 6px;
+  margin-bottom: 10pt;
+  width: 100%;
+}
+#cfp .title_table .logocell {
+  border: 1px solid #e58d54;
+  padding: 10pt 10pt 10pt 10pt;
+  border-radius: 4px 0px 0px 4px;
+}
+#cfp .title_table .titlecell {
+  background: #ebeae4;
+  padding: 6pt 6pt 6pt 6pt;
+  border: 1px solid #e58d54;
+  border-radius: 0px 4px 4px 0px;
+}
+#cfp .title_table .single {
+  background: #ebeae4;
+  padding: 6pt 6pt 6pt 6pt;
+  border: 1px solid #e58d54;
+  border-radius: 4px;
+}
+#cfp .date_table {
+  border: 2px solid #7e4a28;
+  border-radius: 4px;
+  margin: 0pt 0pt 10pt 0pt;
+  width: 100%;
+}
+#cfp .date_table tr:nth-child(odd) td:nth-child(odd) {
+  border: 1px solid #e58d54;
+  padding: 3pt 6pt 3pt 16pt;
+  border-radius: 3px 0px 0px 3px;
+  width: 30%;
+  font-weight: bold;
+  background: #f6f5ef;
+}
+#cfp .date_table tr:nth-child(even) td:nth-child(odd) {
+  border: 1px solid #e58d54;
+  padding: 3pt 6pt 3pt 16pt;
+  border-radius: 3px 0px 0px 3px;
+  width: 30%;
+  font-weight: bold;
+  background: #f9f9f9;
+}
+#cfp .date_table tr:nth-child(odd) td:nth-child(even) {
+  padding: 3pt 6pt 3pt 16pt;
+  border: 1px solid #e58d54;
+  border-radius: 0px 3px 3px 0px;
+  width: 70%;
+  background: #f6f5ef;
+}
+#cfp .date_table tr:nth-child(even) td:nth-child(even) {
+  padding: 3pt 6pt 3pt 16pt;
+  border: 1px solid #e58d54;
+  border-radius: 0px 3px 3px 0px;
+  width: 70%;
+  background: #f9f9f9;
+}
+#cfp .date_table a:link {
+  font-size:10pt;
+  color: #1d419f;
+}
+#cfp .date_table a:link:hover { color:#ee0000; }
+#cfp .date_table a:visited { color:#1d419f; }
+#cfp .date_table a:visited:hover { color:#ee0000; }

@@ -1,0 +1,83 @@
+/* http://matthewjamestaylor.com/blog/perfect-full-page.htm */
+
+@media screen {
+  html {
+    height: 100%;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    border: 0;           /* This removes the border around the viewport in old versions of IE */
+    width: 100%;
+    font-size: 80%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #FFBB00 100%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #FFBB00 100%);
+
+    /* Opera */ 
+    background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #FFBB00 100%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background: -webkit-gradient(linear, left bottom, left top,
+      color-stop(0, #FFFFFF), color-stop(1.0, #FFBB00));
+
+    /* Webkit (Chrome 11+) */ 
+    background: -webkit-linear-gradient(bottom, #FFFFFF 0%, #FFBB00 100%) fixed;
+
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(top, #FFFFFF 0%, #FFBB00 100%);
+  }
+
+  /* Header styles */
+  #header {
+    clear: both;
+    width: 90%;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ffbb00;
+    border-radius: 10px;
+    padding: 1em;
+    padding-bottom: 0.5em;
+    background: #dddddd;
+  }
+
+  #main {
+    clear: both;
+    position: relative;  /* This fixes the IE7 overflow hidden bug */
+    width: 90%;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffffff;
+    border: 1px solid #ffbb00;
+    border-radius: 10px;
+    padding: 1em;
+  }
+
+  /* Footer styles */
+  #footer {
+    clear: both;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-size: 60%;
+    border: 1px solid #ffbb00;
+    border-radius: 10px;
+    background: #eeeeee;
+  }
+
+  #footer p {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+  }
+}

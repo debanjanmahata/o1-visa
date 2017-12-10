@@ -1,0 +1,5 @@
+function popUp(w) {
+  popWin = open(w,"Details","width=1024,height=400,resizable=1,scrollbars=1");
+  popWin.focus(); // brings the new window to the front
+  return false;
+}
